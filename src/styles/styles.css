@@ -1,0 +1,55 @@
+/*page carousel*/
+.page-carousel{
+    width: 100%;
+}
+
+#page-image{
+    height: 400px;
+    object-fit: cover;
+}
+
+/*Main*/
+.work-type{
+    margin-top:50px;
+}
+
+@media (max-width: 576px) {  
+    .xs {color:red;font-weight:bold;}
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width:768px) {  
+    .sm {color:red;font-weight:bold;}
+  }
+   
+  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+  @media (min-width: 768px) and (max-width:992px) {  
+   .md {color:red;font-weight:bold;}
+  }
+   
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width:1200px) { 
+   .lg {color:red;font-weight:bold;}
+  }
+   
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+      .xl {color:red;font-weight:bold;}
+  }
+
+  /*contact*/
+  .contact{
+      margin-top: 10px;
+  }
+
+  .contact-title{
+      margin-left:auto;
+      margin-right:auto;
+      padding-left: 45%;
+  }
+
+
+  /****************footer****************/
+  .footer{
+      margin-top:10px;
+  }
